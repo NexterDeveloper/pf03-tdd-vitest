@@ -1,0 +1,17 @@
+{
+  "name": "pf03-tdd-vitest",
+  "version": "1.0.0",
+  "description": "TDD con Node.js, Vitest y GitHub Actions: fibonacci y validación de PIN",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "vitest": "^5.1.0"
+  }
+}
